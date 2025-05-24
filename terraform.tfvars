@@ -1,0 +1,14 @@
+aws_region       = "us-east-1"
+ami_id           = "ami-0abcdef1234567890"
+instance_type    = "t2.micro"
+key_name         = "your-key-pair-name"
+subnet_ids       = ["subnet-0123456789abcdef0", "subnet-0fedcba9876543210"]
+vpc_id           = "vpc-0abcdef1234567890"
+alb_name         = "my-alb"
+app_port         = 5000
+asg_name         = "my-asg"
+desired_capacity = 2
+min_size         = 1
+max_size         = 3
+domain_name      = "example.com"
+record_name      = "app"
